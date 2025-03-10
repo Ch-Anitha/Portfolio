@@ -6,7 +6,6 @@ import * as motion from 'motion/react-client'; // Keep the motion import as it i
 import TypingEffect from '@/components/client/TypingEffect';
 
 // Import assets
-import heroImage from '@/assets/images/hero.png';
 import heroBg from '@/assets/images/backgrounds/heroBackground.svg';
 import crossArrow from '@/assets/elements/crossArrow.svg';
 import headShine from '@/assets/elements/headShine.svg';
