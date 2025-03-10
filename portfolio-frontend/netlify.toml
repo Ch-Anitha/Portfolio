@@ -3,7 +3,6 @@
   command = "pnpm install --no-frozen-lockfile && npm run build"
   publish = "portfolio-frontend/out"
 
-
 [[redirects]]
   from = "/*"
   to = "/"
