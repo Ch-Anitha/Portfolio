@@ -111,7 +111,7 @@ const AboutSection = () => {
                 >
                     <div className="w-60 h-60">
                         <Image
-                            src={profile1}
+                            src='@/assets/images/profile1.png'
                             alt="Anitha Ch"
                             className="rounded-lg w-full h-full object-cover"
                         />
