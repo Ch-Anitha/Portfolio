@@ -3,8 +3,6 @@
   command = "pnpm install --no-frozen-lockfile && npm run build"
   publish = "portfolio-frontend/out"
 
-[[plugins]]
-  package = "@netlify/plugin-nextjs"
 
 [[redirects]]
   from = "/*"
