@@ -14,6 +14,7 @@ import dots3 from '@/assets/elements/dots3.svg';
 import TextReveal from '@/components/global/TextReveal';
 import SocialIcons from '@/components/hero/SocialIcons';
 import Link from 'next/link';
+import Image from 'next/image';
 
 const HeroSection: React.FC = () => {
     return (
