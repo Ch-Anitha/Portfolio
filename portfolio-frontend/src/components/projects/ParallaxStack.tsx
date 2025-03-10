@@ -15,7 +15,7 @@ interface Project {
     id: number;
     title: string;
     description: string;
-    image: StaticImageData; // Use StaticImageData for imported images
+    image: string; // Use StaticImageData for imported images
     color: string;
     logo: StaticImageData; // Use StaticImageData for imported logos
     techUsed: string[];
