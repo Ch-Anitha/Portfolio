@@ -85,7 +85,7 @@ const HeroSection: React.FC = () => {
                     {/* Left Content */}
                     <div className="basis-1/2 flex flex-col justify-center items-start gap-2 p-4 z-10 relative">
                         <TextReveal>
-                            <span className="text-4xl font-bold">Hello, I'm </span>
+                            <span className="text-4xl font-bold">Hello, I am </span>
                         </TextReveal>
 
                         <TextReveal className={'bg-primary'}>
