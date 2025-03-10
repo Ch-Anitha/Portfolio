@@ -3,7 +3,7 @@
 import { motion } from 'motion/react'; // Keep the motion import as it is
 import { 
     SiPython, SiCplusplus, SiHtml5, SiCss3, SiJavascript, 
-    SiGnubash, SiMysql, SiPostgresql, SiSpringboot, SiNodedotjs, 
+    SiGnubash, SiMysql, SiSpringboot, SiNodedotjs, 
     SiTensorflow, SiPytorch, SiSnowflake, SiFirebase
 } from "react-icons/si"; 
 
