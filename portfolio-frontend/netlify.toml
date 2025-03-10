@@ -1,7 +1,7 @@
 [build]
   base = "portfolio-frontend"
   command = "pnpm install --no-frozen-lockfile && pnpm run build"
-  publish = "portfolio-frontend/.next"
+  publish = "portfolio-frontend/out"
 
 [[plugins]]
   package = "@netlify/plugin-nextjs"
