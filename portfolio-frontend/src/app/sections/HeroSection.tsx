@@ -61,7 +61,7 @@ const HeroSection: React.FC = () => {
                                     fill="transparent"
                                     className="text-primary stroke-primary stroke-[5px] opacity-10"
                                 >
-                                    Fi Amanillah
+                                    Anitha Ch
                                 </text>
                             </svg>
                         </div>
@@ -85,35 +85,33 @@ const HeroSection: React.FC = () => {
                     {/* Left Content */}
                     <div className="basis-1/2 flex flex-col justify-center items-start gap-2 p-4 z-10 relative">
                         <TextReveal>
-                            <span className="text-4xl font-bold">Hello, It&apos;s me</span>
+                            <span className="text-4xl font-bold">Hello, I'm </span>
                         </TextReveal>
 
                         <TextReveal className={'bg-primary'}>
                             <h1 className="text-6xl font-bold relative text-primary">
-                                Fi Amanillah
+                                Anitha Ch
                             </h1>
                         </TextReveal>
 
                         <TextReveal>
                             <TypingEffect
-                                staticText={"I'm a"}
+                                staticText={"I am a"}
                                 words={[
-                                    'Web Developer',
-                                    'MERN Stack Developer',
-                                    'Frontend Enthusiast',
+                                    'Data Enthusiast',
+                                    'Software Engineer',
                                     'Problem Solver',
                                 ]}
                             />
                         </TextReveal>
 
                         <TextReveal className={'bg-muted-foreground'}>
-                            I specialize in building high-performance web applications with modern
-                            JavaScript technologies like React, Next.js, Node.js, and MongoDB.
+                        I specialize in building scalable software solutions and data-driven applications, leveraging Python, Java, SQL, and cloud technologies for efficient data processing and backend optimization.
                         </TextReveal>
 
                         <div className="my-3">
                             <Link href={'#contact'}>
-                                <Button size="lg">Hire Me</Button>
+                                <Button size="lg">Contact</Button>
                             </Link>
                             <a href={'#projects'}>
                                 <Button variant="outline" size="lg" className="ml-2">
@@ -141,9 +139,9 @@ const HeroSection: React.FC = () => {
                             >
                                 <Image
                                     src={heroImage}
-                                    alt="Fi Amanillah"
+                                    alt="Anitha Ch"
                                     priority
-                                    className="w-[90%] drop-shadow-[2px_-2px_2px_rgba(0,0,0,1)]"
+                                    className="w-[110%] max-w-[500px] md:max-w-[700px] drop-shadow-[2px_-2px_2px_rgba(0,0,0,1)] -mt-40"
                                 />
 
                                 {/* Head Shine Animation */}

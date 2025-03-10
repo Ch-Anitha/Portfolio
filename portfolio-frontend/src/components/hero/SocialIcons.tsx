@@ -10,25 +10,7 @@ interface SocialLink {
 // Array of social links
 const socialLinks: SocialLink[] = [
     {
-        href: 'https://www.facebook.com/fiamanillah.b2/',
-        icon: (
-            <svg
-                xmlns="http://www.w3.org/2000/svg"
-                viewBox="0 0 24 24"
-                className="w-10 h-10 text-primary hover:scale-105 hover:text-primary/90"
-            >
-                <path
-                    fill="none"
-                    stroke="currentColor"
-                    strokeLinecap="round"
-                    strokeWidth="1.5"
-                    d="M10.478 21.125a9.3 9.3 0 0 0 3.037.002m-3.038-.002A9.25 9.25 0 0 1 2.75 12a9.25 9.25 0 1 1 10.765 9.127m-3.038-.002V16.12H8.58a.6.6 0 0 1-.6-.6v-1.838a.6.6 0 0 1 .6-.6h1.897V9.95a3 3 0 0 1 3-3h1.81a1 1 0 0 1 1 1v1.04a1 1 0 0 1-1 1h-.772a1 1 0 0 0-1 1v2.092h2.297a.6.6 0 0 1 .592.698l-.25 1.504a1 1 0 0 1-.986.836h-1.653v5.007"
-                />
-            </svg>
-        ),
-    },
-    {
-        href: 'https://www.linkedin.com/in/fi-amanillah/',
+        href: 'https://www.linkedin.com/in/anitha-chunduri-2a627923a/',
         icon: (
             <svg
                 xmlns="http://www.w3.org/2000/svg"
@@ -43,7 +25,7 @@ const socialLinks: SocialLink[] = [
         ),
     },
     {
-        href: 'https://github.com/fiamanillah',
+        href: 'https://github.com/Anitha-Ch',
         icon: (
             <svg
                 xmlns="http://www.w3.org/2000/svg"
@@ -65,7 +47,7 @@ const socialLinks: SocialLink[] = [
         ),
     },
     {
-        href: 'mailto:fi@amanillah.com',
+        href: 'mailto:ch.anitha513@gmail.com',
         icon: (
             <svg
                 xmlns="http://www.w3.org/2000/svg"

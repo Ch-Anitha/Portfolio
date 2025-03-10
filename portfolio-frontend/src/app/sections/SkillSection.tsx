@@ -7,12 +7,11 @@ const SkillSection: React.FC = () => {
         <Section className={'relative py-10'}>
             {/* <SectionBackgrpound1 /> */}
             <div className="text-center w-4/6 mx-auto max-tablet-lg:w-full">
-                <h1>What I Know</h1>
+                <h1>Skills</h1>
                 <p>
-                    I specialize in building modern, scalable, and user-friendly web applications.
-                    My expertise spans across frontend and backend development, with a strong focus
-                    on technologies like React, Node.js, and MongoDB. I am passionate about solving
-                    complex problems and delivering high-quality solutions.
+                I specialize in building modern, scalable, and data-driven software solutions, combining expertise in software engineering and data engineering. 
+                With a strong foundation in Python, Java, SQL, and cloud technologies (AWS, Snowflake), I design and optimize backend systems, APIs, and databases for performance and scalability. 
+                I am passionate about solving complex problems and delivering high-quality solutions.
                 </p>
             </div>
             <div className="flex">

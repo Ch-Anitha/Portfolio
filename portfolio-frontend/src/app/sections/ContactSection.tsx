@@ -4,7 +4,6 @@ import Section from '@/components/global/Section';
 import HugeiconsMailOpen from '@/assets/icons/HugeiconsMailOpen';
 import SiPhoneDuotone from '@/assets/icons/SiPhoneDuotone';
 import AkarIconsLocation from '@/assets/icons/AkarIconsLocation';
-import MingcuteFacebookLine from '@/assets/icons/MingcuteFacebookLine';
 import JamLinkedinCircle from '@/assets/icons/JamLinkedinCircle';
 import RaphaelGithubalt from '@/assets/icons/RaphaelGithubalt';
 import contact from '@/assets/elements/contact.gif';
@@ -16,7 +15,7 @@ const ContactSection: React.FC = () => {
             <div className="text-center py-10 mobile-lg:w-9/12 mx-auto">
                 <h1>Contact</h1>
                 <p>
-                    Whether you have a project in mind, need a consultation, have a job offer or
+                    Whether you have a project in mind, have a job offer or
                     just want to connect, feel free to reach out. Let&apos;s build something amazing
                     together!
                 </p>
@@ -29,12 +28,12 @@ const ContactSection: React.FC = () => {
                         <span className="flex items-center text-primary text-xl gap-2 font-bold">
                             <HugeiconsMailOpen />
                             <a
-                                href="mailto:fi@amanillah.com"
+                                href="mailto:ch.anitha513@gmail.com"
                                 target="_blank"
                                 rel="noopener noreferrer"
                                 className="no-underline font-bold hover:text-primary/90 translate-y-1"
                             >
-                                fi@amanillah.com
+                                Anitha Ch
                             </a>
                         </span>
                         <span className="flex items-center text-primary text-xl gap-2 font-bold">
@@ -45,7 +44,7 @@ const ContactSection: React.FC = () => {
                                 rel="noopener noreferrer"
                                 className="no-underline font-bold hover:text-primary/90 translate-y-1"
                             >
-                                +8801608505647
+                                +1 6674331837
                             </a>
                         </span>
                         <span className="flex items-center text-primary text-xl gap-2 font-bold">
@@ -56,27 +55,21 @@ const ContactSection: React.FC = () => {
                                 rel="noopener noreferrer"
                                 className="no-underline font-bold hover:text-primary/90 translate-y-1"
                             >
-                                Mirpur 1, Dhaka, Bangladesh
+                                Baltimore, Maryland, USA
                             </a>
                         </span>
                     </div>
                     <div className="flex gap-3 text-4xl mt-4">
+                
                         <a
-                            href="https://www.facebook.com/fiamanillah.b2/"
-                            target="_blank"
-                            rel="noopener noreferrer"
-                        >
-                            <MingcuteFacebookLine />
-                        </a>
-                        <a
-                            href="https://www.linkedin.com/in/fi-amanillah/"
+                            href="https://www.linkedin.com/in/anitha-chunduri-2a627923a/"
                             target="_blank"
                             rel="noopener noreferrer"
                         >
                             <JamLinkedinCircle />
                         </a>
                         <a
-                            href="https://github.com/fiamanillah"
+                            href="https://github.com/Ch-Anitha"
                             target="_blank"
                             rel="noopener noreferrer"
                         >

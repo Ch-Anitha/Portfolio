@@ -19,10 +19,10 @@ const Header: React.FC = () => {
                     >
                         <Image
                             src={logo}
-                            alt="Fi Amanillah"
+                            alt="Anitha Ch"
                             className="h-full max-w-10 -translate-y-1"
                         />
-                        Fi Amanillah
+                        Anitha Ch
                     </Link>
                 </h1>
                 <div className="max-tablet-lg:hidden basis-4/6 flex justify-center">
@@ -30,7 +30,7 @@ const Header: React.FC = () => {
                 </div>
                 <div className="basis-1/6 flex items-center justify-end gap-2">
                     <Link
-                        href="https://drive.google.com/file/d/1nIK9SN-77GZAqTJoYORz8YPgsqxuUl7G/view?usp=drive_link"
+                        href="https://drive.google.com/file/d/12MoYDebAZ0Z0sm5KrZLQ_v_7ul1Ovcr6/view?usp=sharing"
                         target="_blank"
                     >
                         <Button className="font-bold">Resume</Button>

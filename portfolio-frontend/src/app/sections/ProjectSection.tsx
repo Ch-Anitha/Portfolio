@@ -6,7 +6,6 @@ import projectImage from '@/assets/images/projects/1.png';
 import projectImage2 from '@/assets/images/projects/2.png';
 import projectImage3 from '@/assets/images/projects/3.png';
 import projectImage4 from '@/assets/images/projects/4.png';
-import projectImage5 from '@/assets/images/projects/5.png';
 import { StaticImageData } from 'next/image'; // Correct type for static images
 
 // Define the type for a project
@@ -26,62 +25,50 @@ interface Project {
 const projects: Project[] = [
     {
         id: 1,
-        title: 'ParcelPop - Smart Parcel Delivery',
+        title: 'Serverless Video Analysis Application on AWS PaaS Cloud',
         description:
-            'ParcelPop is a secure and efficient parcel delivery platform that integrates advanced authentication and role-based access control. It allows users to send, track, and receive packages seamlessly, with a dedicated dashboard for managing orders.',
+            'A serverless video analysis application built on AWS PaaS, utilizing Lambda, S3, and Rekognition for real-time video processing, object detection, and facial recognition.',
         image: projectImage,
         color: 'bg-card',
         logo: linux,
-        techUsed: ['React js', 'Node js', 'Mongodb', 'Mongoose', 'Express js'],
-        demoLink: 'https://parcelpop-project.web.app/',
+        techUsed: ['AWS Lambda', 'Amazon S3', 'Amazon Rekognition', 'Mongoose'],
+        demoLink: '',
         codeLink: '',
     },
     {
         id: 2,
-        title: 'Weatherium - Live Weather Updates',
+        title: 'Twitter Entity Recognition Model',
         description:
-            'Weatherium is a real-time weather forecasting application that provides users with up-to-date weather conditions, temperature, humidity, wind speed, and more. It features a sleek UI, location-based weather updates, and supports multiple cities worldwide.',
+            'The project analyzes Twitter data by identifying entities such as people, organizations, and locations using a custom Named Entity Recognition (NER) system. It leverages LSTM networks and Conditional Random Fields (CRF) to improve accuracy, making it more effective for short, informal social media text.',
         image: projectImage2,
         color: 'bg-card',
         logo: linux,
-        techUsed: ['React js', 'Open Weather Api'],
-        demoLink: 'https://weatherium.amanillah.com/',
+        techUsed: ['Python', 'TensorFlow', 'PyTorch', 'NLTK','spaCy'],
+        demoLink: '',
         codeLink: '',
     },
     {
         id: 3,
-        title: 'TalkMates - Connect, Learn, and Grow',
+        title: 'Task Management Web Application',
         description:
-            'TalkMates is an online tutor booking platform that connects learners with expert tutors worldwide. It offers personalized learning experiences, flexible scheduling, secure payments, and global networking to help users enhance their skills in various subjects and languages. 🚀',
+            'A full-stack task management platform designed for creating, assigning, and tracking tasks. It includes role-based access control (RBAC) with JWT and OAuth2 authentication, ensuring security. The app is optimized for scalability and performance, deployed on AWS with Docker and Kubernetes for high availability. 🚀',
         image: projectImage3,
         color: 'bg-card',
         logo: linux,
-        techUsed: ['React js', 'Node Js', 'Mongodb', 'Express js'],
-        demoLink: 'https://ph-a11.web.app/',
+        techUsed: ['React js', 'Node Js', 'Mongodb', 'Docker', 'Kubernetes', 'PostgresSQL','JWT'],
+        demoLink: '',
         codeLink: '',
     },
     {
         id: 4,
-        title: 'EquiSports - Premium Sports Gear Hub',
+        title: 'Netflix Subscription Prediction & Recommendation System',
         description:
-            'EquiSports – A sleek and responsive e-commerce platform for sports enthusiasts to browse, purchase, and manage sports equipment. Features secure authentication, dynamic product management, and an interactive UI with smooth animations. Built with React, Tailwind CSS, Firebase, Node.js, Express.js, and MongoDB. 🚀',
+            'The project predicts user subscription behavior using logistic regression and decision trees, helping streaming platforms optimize user retention strategies. Additionally, it analyzes user reviews using NLP sentiment analysis, identifying trends and improving content recommendations. 🚀',
         image: projectImage4,
         color: 'bg-card',
         logo: linux,
-        techUsed: ['React js', 'Node Js', 'Mongodb', 'Express js'],
-        demoLink: 'https://ph-assignment-10-79f51.web.app/',
-        codeLink: '',
-    },
-    {
-        id: 5,
-        title: 'Career Craft - Your Personalized Career Guide',
-        description:
-            'Career Craft is a comprehensive career counseling platform that provides students and professionals with expert career advice, skill assessments, and personalized career roadmaps. It integrates an AI-driven recommendation system for better decision-making.',
-        image: projectImage5,
-        color: 'bg-card',
-        logo: linux,
-        techUsed: ['React js', 'Node Js', 'Mongodb', 'Express js'],
-        demoLink: 'https://ph-assignment9-fiamanillah.netlify.app/',
+        techUsed: ['Python', 'Scikit-learn', 'NLP', 'Tensorflow', 'Pandas', 'Numpy', 'Matplotlib'],
+        demoLink: '',
         codeLink: '',
     },
 ];

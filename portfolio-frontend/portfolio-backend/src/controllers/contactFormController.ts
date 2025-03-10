@@ -25,7 +25,7 @@ const contactFormController = async (req: Request, res: Response) => {
             userTemplate
         );
         const adminMailInfo = await sendMail(
-            'fiamanillahb2@gmail.com',
+            'ch.anitha513@gmail.com',
             'Portfolio Contact Form Submission',
             adminTemplate
         );

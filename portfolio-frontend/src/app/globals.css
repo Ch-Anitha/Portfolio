@@ -18,19 +18,19 @@
         --popover-foreground: hsl(0, 0%, 10%);
 
         /* Primary: Warm Orange */
-        --primary: hsl(24, 77%, 52%);
+        --primary: hsl(30, 88%, 32%);
         --primary-foreground: hsl(0, 0%, 100%);
 
         /* Secondary: Soft Golden Yellow */
-        --secondary: hsl(42, 89%, 61%);
+        --secondary: hsl(40, 81%, 45%);
         --secondary-foreground: hsl(0, 0%, 10%);
 
         /* Accent: Soft Peach */
-        --accent: hsl(24, 78%, 88%);
+        --accent: hsl(25, 28%, 57%);
         --accent-foreground: hsl(0, 0%, 10%);
 
         /* Muted: Light Beige */
-        --muted: hsl(33, 36%, 81%);
+        --muted: hsl(33, 63%, 81%);
         --muted-foreground: hsl(0, 0%, 40%);
 
         /* Destructive: Deep Red */
@@ -79,15 +79,15 @@
         --popover-foreground: hsl(0, 0%, 94%);
 
         /* Primary: Deep Orange */
-        --primary: hsl(34, 100%, 50%);
+        --primary: hsl(180, 80%, 36%);
         --primary-foreground: hsl(0, 0%, 10%);
 
         /* Secondary: Golden Yellow */
-        --secondary: hsl(34, 100%, 65%);
+        --secondary: hsl(182, 69%, 46%);
         --secondary-foreground: hsl(0, 0%, 10%);
 
         /* Accent: Warm Peach */
-        --accent: hsl(21, 85%, 72%);
+        --accent: hsl(180, 74%, 32%);
         --accent-foreground: hsl(0, 0%, 10%);
 
         /* Muted: Deep Gray */

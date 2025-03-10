@@ -1,22 +1,18 @@
 'use client';
 
 import { motion } from 'motion/react'; // Keep the motion import as it is
-import TablerBrandRedux from '@/assets/icons/TablerBrandRedux';
-import NoniconsReact16 from '@/assets/icons/NoniconsReact16';
-import PhFileJsBold from '@/assets/icons/PhFileJsBold';
-import TeenyiconsTailwindSolid from '@/assets/icons/TeenyiconsTailwindSolid';
-import NoniconsNode16 from '@/assets/icons/NoniconsNode16';
-import SimpleIconsExpress from '@/assets/icons/SimpleIconsExpress';
-import TablerBrandNextjs from '@/assets/icons/TablerBrandNextjs';
-import SimpleIconsMongodb from '@/assets/icons/SimpleIconsMongodb';
-import SimpleIconsMongoose from '@/assets/icons/SimpleIconsMongoose';
-import UiwLinux from '@/assets/icons/UiwLinux';
-import LogosJwtIcon from '@/assets/icons/LogosJwtIcon';
-import MingcuteVscodeFill from '@/assets/icons/MingcuteVscodeFill';
-import DeviconPlainWebstorm from '@/assets/icons/DeviconPlainWebstorm';
-import DeviconPlainPostman from '@/assets/icons/DeviconPlainPostman';
-import TeenyiconsGitSolid from '@/assets/icons/TeenyiconsGitSolid';
-import HugeiconsGithub from '@/assets/icons/HugeiconsGithub';
+import { 
+    SiPython, SiCplusplus, SiHtml5, SiCss3, SiJavascript, 
+    SiGnubash, SiMysql, SiPostgresql, SiSpringboot, SiNodedotjs, 
+    SiTensorflow, SiPytorch, SiSnowflake, SiFirebase
+} from "react-icons/si"; 
+
+import { FaJava, FaDatabase, FaAws, FaDocker, FaGitAlt, FaJira, FaTable } from "react-icons/fa"; 
+import { DiMongodb, DiGoogleCloudPlatform } from "react-icons/di"; 
+import { SiRedhatopenshift } from "react-icons/si"; 
+import { SiApachekafka } from "react-icons/si"; 
+import { MdStorage } from "react-icons/md"; 
+import { FaPython, FaBrain, FaCode } from "react-icons/fa";  
 
 // Define the type for a skill
 interface Skill {
@@ -32,28 +28,42 @@ interface Categories {
 const Skills: React.FC = () => {
     // Define the categories object
     const categories: Categories = {
-        language: [{ icon: PhFileJsBold, name: 'Javascript' }],
-        frontend: [
-            { icon: NoniconsReact16, name: 'React Js' },
-            { icon: TablerBrandRedux, name: 'Redux' },
-            { icon: TablerBrandNextjs, name: 'Next js' },
-            { icon: TeenyiconsTailwindSolid, name: 'Tailwind Css' },
+        languages: [
+            { icon: SiPython, name: "Python" },
+            { icon: SiCplusplus, name: "C++" },
+            { icon: FaJava, name: "Java" },
+            { icon: SiGnubash, name: "Bash" },
+            { icon: SiHtml5, name: "HTML" },
+            { icon: SiCss3, name: "CSS" },
+            { icon: SiJavascript, name: "JavaScript" },
         ],
-        backend: [
-            { icon: NoniconsNode16, name: 'Node Js' },
-            { icon: SimpleIconsExpress, name: 'Express Js' },
-            { icon: SimpleIconsMongodb, name: 'MongoDb' },
-            { icon: SimpleIconsMongoose, name: 'Mongoose' },
-            { icon: LogosJwtIcon, name: 'Jwt' },
+        "frameworks & Libraries":[
+            { icon: SiTensorflow, name: "TensorFlow" },
+            { icon: SiPytorch, name: "PyTorch" },
+            { icon: FaPython, name: "NLTK" },
+            { icon: FaBrain, name: "spaCy" },
+            { icon: FaCode, name: "OpenCV" },
+            { icon: SiSpringboot, name: "Spring Boot" },
+            { icon: SiNodedotjs, name: "Node.js" },
+        ],
+        "Databases & Tools": [
+            { icon: FaDatabase, name: "PostgreSQL" },
+            { icon: SiMysql, name: "MySQL" },
+            { icon: DiMongodb, name: "MongoDB" },
+            { icon: SiSnowflake, name: "Snowflake" },
+            { icon: FaTable, name: "Tableau" },
+            { icon: MdStorage, name: "Power BI" },
+            { icon: FaJira, name: "Jira" },
+            { icon: FaGitAlt, name: "Git" },
         ],
         tools: [
-            { icon: MingcuteVscodeFill, name: 'Vs code' },
-            { icon: DeviconPlainWebstorm, name: 'Webstorm' },
-            { icon: DeviconPlainPostman, name: 'Postman' },
-            { icon: TeenyiconsGitSolid, name: 'Git' },
-            { icon: HugeiconsGithub, name: 'Github' },
+            { icon: FaAws, name: "AWS (EC2, S3, RDS)" },
+            { icon: DiGoogleCloudPlatform, name: "Google Cloud (GCS, Firebase)" },
+            { icon: SiFirebase, name: "Firebase" },
+            { icon: FaDocker, name: "Docker" },
+            { icon: SiRedhatopenshift, name: "Kubernetes" },
+            { icon: SiApachekafka, name: "Kafka" },
         ],
-        others: [{ icon: UiwLinux, name: 'Linux' }],
     };
 
     return (
@@ -66,7 +76,7 @@ const Skills: React.FC = () => {
                     transition={{ duration: 0.6 }}
                     viewport={{ once: true }}
                 >
-                    <h2 className="text-3xl font-semibold mb-3 capitalize">{category}</h2>
+                    <h2 className="text-2xl font-semibold mb-2 capitalize">{category}</h2>
                     <div className="flex flex-wrap justify-start items-center gap-5">
                         {skills.map((skill, index) => (
                             <motion.div
@@ -79,7 +89,7 @@ const Skills: React.FC = () => {
                                     ease: 'easeOut',
                                 }}
                                 viewport={{ once: true }}
-                                className="bg-secondary text-secondary-foreground text-2xl py-2 px-3 font-bold flex gap-2 items-center justify-center border border-border rounded-lg hover:bg-secondary/90 hover:shadow-lg"
+                                className="bg-secondary text-secondary-foreground text-xl py-1 px-2 font-bold flex gap-2 items-center justify-center border border-border rounded-lg hover:bg-secondary/90 hover:shadow-lg"
                             >
                                 <skill.icon />
                                 {skill.name}
