@@ -138,11 +138,12 @@ const HeroSection: React.FC = () => {
                                 className="relative origin-bottom"
                             >
                                 <Image
-                                    src={heroImage}
-                                    alt="Anitha Ch"
-                                    priority
+                                    src="/heroImage.png"
+                                     alt="Anitha Ch"
+    
+                                      priority
                                     className="w-[110%] max-w-[500px] md:max-w-[700px] drop-shadow-[2px_-2px_2px_rgba(0,0,0,1)] -mt-40"
-                                />
+                                  />
 
                                 {/* Head Shine Animation */}
                                 <motion.div
