@@ -25,7 +25,7 @@ const socialLinks: SocialLink[] = [
         ),
     },
     {
-        href: 'https://github.com/Anitha-Ch',
+        href: 'https://github.com/Ch-Anitha',
         icon: (
             <svg
                 xmlns="http://www.w3.org/2000/svg"
