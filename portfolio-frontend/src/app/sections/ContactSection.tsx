@@ -6,7 +6,6 @@ import SiPhoneDuotone from '@/assets/icons/SiPhoneDuotone';
 import AkarIconsLocation from '@/assets/icons/AkarIconsLocation';
 import JamLinkedinCircle from '@/assets/icons/JamLinkedinCircle';
 import RaphaelGithubalt from '@/assets/icons/RaphaelGithubalt';
-import contact from '@/assets/elements/contact.gif';
 import Image from 'next/image';
 
 const ContactSection: React.FC = () => {
@@ -23,7 +22,7 @@ const ContactSection: React.FC = () => {
             <div className="flex gap-4 max-tablet-lg:flex-col">
                 <div className="basis-1/3 bg-card p-4 border border-border rounded-xl">
                     <h1></h1>
-                    <Image src={contact} alt="Contact" className="w-[50%] mx-auto" />
+                    <img src="/contact.gif" alt="Contact" className="w-[50%] mx-auto" />
                     <div className="flex flex-col gap-3">
                         <span className="flex items-center text-primary text-xl gap-2 font-bold">
                             <HugeiconsMailOpen />
