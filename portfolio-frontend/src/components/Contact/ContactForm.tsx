@@ -1,4 +1,4 @@
-/* 'use client'; // Required for using hooks in Next.js
+'use client'; // Required for using hooks in Next.js
 
 import React, { useState } from 'react';
 import { useForm as useReactHookForm } from 'react-hook-form';
@@ -57,7 +57,7 @@ export default function ContactForm() {
             className="mx-auto space-y-4 bg-card p-4 rounded-xl border border-border"
         >
             {/* Name Field */}
-       /*     <div>
+            <div>
                 <Label htmlFor="name">Name</Label>
                 <Input id="name" {...register('name')} placeholder="Enter your name" />
                 {errors.name && (
@@ -66,7 +66,7 @@ export default function ContactForm() {
             </div>
 
             {/* Email Field */}
-         /*   <div>
+          <div>
                 <Label htmlFor="email">Email</Label>
                 <Input id="email" {...register('email')} placeholder="Enter your email" />
                 {errors.email && (
@@ -75,7 +75,7 @@ export default function ContactForm() {
             </div>
 
             {/* Message Field */}
-       /*     <div>
+           <div>
                 <Label htmlFor="message">Message</Label>
                 <Textarea
                     id="message"
@@ -89,12 +89,9 @@ export default function ContactForm() {
             </div>
 
             {/* Submit Button */}
-        /*    <Button type="submit" className="w-full" disabled={loading}>
+         <Button type="submit" className="w-full" disabled={loading}>
                 {loading ? 'Sending...' : 'Submit'}
             </Button>
         </form>
     );
 }
-
-*/
-
