@@ -1,6 +1,5 @@
 import React from 'react';
 import Section from '@/components/global/Section';
-import Image from 'next/image';
 import { Button } from '@/components/ui/button';
 import * as motion from 'motion/react-client'; // Keep the motion import as it is
 import TypingEffect from '@/components/client/TypingEffect';
