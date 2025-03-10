@@ -109,10 +109,10 @@ const AboutSection = () => {
                     className="bg-card flex flex-col max-mobile-lg:flex-row gap-2 rounded-lg p-4 border border-border"
                 >
                     <div className="w-60 h-60">
-                        <Image
-                            src='@/assets/images/profile1.png'
-                            alt="Anitha Ch"
-                            className="rounded-lg w-full h-full object-cover"
+                        <img
+                             src="images/profile1.png"  // ✅ Directly references the file in public/
+                             alt="Anitha Ch"
+                             className="rounded-lg w-full h-full object-cover"
                         />
                     </div>
                     <div className="flex flex-col">
