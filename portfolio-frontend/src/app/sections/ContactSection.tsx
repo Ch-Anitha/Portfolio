@@ -6,7 +6,6 @@ import SiPhoneDuotone from '@/assets/icons/SiPhoneDuotone';
 import AkarIconsLocation from '@/assets/icons/AkarIconsLocation';
 import JamLinkedinCircle from '@/assets/icons/JamLinkedinCircle';
 import RaphaelGithubalt from '@/assets/icons/RaphaelGithubalt';
-import Image from 'next/image';
 
 const ContactSection: React.FC = () => {
     return (
