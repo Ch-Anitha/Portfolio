@@ -19,7 +19,7 @@ const certifications = [
 const experience = [
     {
         title: "Research Assistant",
-        company: "University of Maryland, Baltimore County",
+        company: "University of Maryland Baltimore County",
         location: "Baltimore, USA",
         duration: "August 2024 - Present",
         description: [
@@ -135,7 +135,7 @@ const AboutSection = () => {
                 >
                     <div className="flex gap-2">
                         <div className="border-l-4 border-primary pl-2">
-                            <h3>Master's of Science Information Systems</h3>
+                            <h3>Masters of Science Information Systems</h3>
                             <span className="flex items-center gap-2">
                                 <HugeiconsUniversity /> University of Maryland Baltimore County
                             </span>
