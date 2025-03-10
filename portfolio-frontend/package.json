@@ -4,7 +4,7 @@
     "private": true,
     "scripts": {
         "dev": "next dev",
-        "build": "next build && cp -r assets/images public/",
+        "build": "next build && cp -r src/assets/images public/",
         "start": "next start",
         "export": "next build && next export",
         "lint": "next lint"
