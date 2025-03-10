@@ -137,7 +137,7 @@ const HeroSection: React.FC = () => {
                                 className="relative origin-bottom"
                             >
                                 <Image
-                                    src="/images/heroImage.png"
+                                    src="/images/hero.png"
                                      alt="Anitha Ch"
     
                                       priority
