@@ -83,7 +83,7 @@ const Card: React.FC<CardProps> = ({ project, progress, range, targetScale, inde
                     {/* Image Section */}
                     <div className="basis-4/6 rounded-3xl p-4 max-mobile-sm:p-2 overflow-hidden">
                         <div className="w-full h-full overflow-hidden rounded-xl border border-border">
-                            <Image
+                            <img
                                 src={project.image}
                                 width={1400}
                                 height={1000}
