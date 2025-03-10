@@ -1,6 +1,5 @@
 import Section from '@/components/global/Section';
 import Image from 'next/image';
-import profile1 from '@/assets/images/profile1.png';
 import AnimatedText from '@/components/global/ScrollFadeParagraph';
 import HugeiconsUniversity from '@/assets/icons/HugeiconsUniversity';
 import * as motion from 'motion/react-client';
