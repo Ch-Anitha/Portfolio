@@ -16,6 +16,16 @@ const certifications = [
 
 const experience = [
     {
+        title: "Software Engineer Intern ",
+        company: "Curanostics",
+        location: "Baltimore, USA",
+        duration: "Feb 2025 - Present",
+        description: [
+            "Researched and implemented NLP techniques using PyTorch and TensorFlow to mitigate hallucinations in Large Language Models (LLMs), improving model reliability by 25%.",
+            "Optimized data processing workflows using Linux and Shell scripting, increasing computational efficiency by 30%."
+        ]
+    },
+    {
         title: "Research Assistant",
         company: "University of Maryland Baltimore County",
         location: "Baltimore, USA",
@@ -36,48 +46,16 @@ const experience = [
         ]
     },
     {
-        title: "Data Analyst",
-        company: "1stopai",
-        location: "Remote",
-        duration: "December 2022 - July 2023",
-        description: [
-            "Created interactive dashboards using Tableau, providing real-time business insights that improved decision-making speed by 40%.",
-            "Developed predictive machine learning models in Python, achieving 85% accuracy in forecasting sales trends."
-        ]
-    },
-    {
-        title: "Data Science Intern",
-        company: "Exposys Data Labs",
-        location: "Remote",
-        duration: "May 2022 - July 2022",
-        description: [
-            "Developed an Intelligent Traffic Information System to provide real-time traffic updates, enhancing automobile safety.",
-            "Integrated Apache Kafka for real-time data processing, increasing data throughput by 10%.",
-            "Optimized data retrieval strategies using SQL & MongoDB, improving system efficiency."
-        ]
-    },
-    {
         title: "Software Engineer Intern",
-        company: "The Sparks Foundation",
+        company: "Exposys Data Labs",
         location: "Remote",
         duration: "September 2022 - November 2022",
         description: [
-            "Designed and developed a RESTful API using Node.js for real-time analytics data retrieval and processing.",
-            "Implemented JWT-based authentication to secure API endpoints and enable role-based access control.",
-            "Optimized PostgreSQL queries, reducing API response time by 35% for complex data aggregations."
+            "Designed and developed a RESTful API using Node.js to handle data retrieval and processing for real-time analytics",
+"Implemented JWT-based authentication to secure API endpoints and ensure role-based access control"
+"Optimized database queries in PostgreSQL, reducing API response time by 35% for complex data aggregations"
         ]
     },
-    {
-        title: "Research Intern",
-        company: "National Institute of Technology Andhra Pradesh",
-        location: "Remote",
-        duration: "Jan 2022 - Apr 2022",
-        description: [
-            "Developed a microservices-based traffic monitoring system using Spring Boot for backend services.",
-            "Integrated Apache Kafka for real-time data streaming, enhancing system responsiveness and scalability.",
-            "Optimized data indexing and retrieval strategies in SQL & MongoDB to improve query performance."
-        ]
-    }
 ];
 
 
