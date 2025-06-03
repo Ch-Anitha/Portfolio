@@ -97,7 +97,7 @@ const HeroSection: React.FC = () => {
                             <TypingEffect
                                 staticText={"I am a"}
                                 words={[
-                                    'Data Enthusiast',
+                                    'AI Enthusiast',
                                     'Software Engineer',
                                     'Problem Solver',
                                 ]}
@@ -136,11 +136,7 @@ const HeroSection: React.FC = () => {
                                 }}
                                 className="relative origin-bottom"
                             >
-                                <img
-                                    src="/images/hero.png"
-                                     alt="Anitha Ch"
-                                    className="w-[100%] max-w-[500px] md:max-w-[700px] drop-shadow-[2px_-2px_2px_rgba(0,0,0,1)] -mt-10"
-                                  />
+                                
 
                                 {/* Head Shine Animation */}
                                 <motion.div
