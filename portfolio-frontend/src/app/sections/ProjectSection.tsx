@@ -72,7 +72,7 @@ const projects: Project[] = [
         title: 'LexiQuery',
         description:
             'Developed a full-stack NLP application enabling users to upload and analyze documents with transformer-based summarization and retrieval-augmented Q&A',
-        image: 'images/projects/3.png',
+        image: 'images/projects/2.png',
         color: 'bg-card',
         logo: linux,
         techUsed: ['Python', 'Scikit-learn', 'NLP', 'Tensorflow', 'Pandas', 'Numpy', 'Matplotlib', 'RAG', 'ChromaDB','LangChain'],
