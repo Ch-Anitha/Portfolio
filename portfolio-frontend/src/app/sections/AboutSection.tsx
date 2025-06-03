@@ -52,7 +52,7 @@ const experience = [
         duration: "September 2022 - November 2022",
         description: [
             "Designed and developed a RESTful API using Node.js to handle data retrieval and processing for real-time analytics",
-"Implemented JWT-based authentication to secure API endpoints and ensure role-based access control"
+"Implemented JWT-based authentication to secure API endpoints and ensure role-based access control",
 "Optimized database queries in PostgreSQL, reducing API response time by 35% for complex data aggregations"
         ]
     },
