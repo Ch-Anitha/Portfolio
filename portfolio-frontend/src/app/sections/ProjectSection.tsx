@@ -67,6 +67,18 @@ const projects: Project[] = [
         demoLink: '',
         codeLink: '',
     },
+    {
+        id: 5,
+        title: 'LexiQuery',
+        description:
+            'Developed a full-stack NLP application enabling users to upload and analyze documents with transformer-based summarization and retrieval-augmented Q&A',
+        image: 'images/projects/3.png',
+        color: 'bg-card',
+        logo: linux,
+        techUsed: ['Python', 'Scikit-learn', 'NLP', 'Tensorflow', 'Pandas', 'Numpy', 'Matplotlib', 'RAG', 'ChromaDB','LangChain'],
+        demoLink: '',
+        codeLink: '',
+    },
 ];
 
 const ProjectSection: React.FC = () => {
