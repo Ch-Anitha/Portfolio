@@ -30,7 +30,7 @@ const Header: React.FC = () => {
                 </div>
                 <div className="basis-1/6 flex items-center justify-end gap-2">
                     <Link
-                        href="https://drive.google.com/file/d/12MoYDebAZ0Z0sm5KrZLQ_v_7ul1Ovcr6/view?usp=sharing"
+                        href="https://drive.google.com/file/d/1tXmzLgKdXtuuZ8V-WuV1xXacTS_OK41b/view?usp=sharing"
                         target="_blank"
                     >
                         <Button className="font-bold">Resume</Button>
